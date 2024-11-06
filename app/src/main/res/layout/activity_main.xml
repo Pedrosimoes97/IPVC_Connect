@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
 
-    <!-- Título "Escolas IPVC" com uma linha abaixo -->
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="wrap_content"
