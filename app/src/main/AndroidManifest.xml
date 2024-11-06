@@ -13,11 +13,11 @@
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
 
-        <activity android:name=".Ersc"
+        <activity android:name=".Escolas.Cursos.Ersc"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect"/>
         <activity
-            android:name=".Estg"
+            android:name=".Escolas.Estg"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect"/>
         <activity

@@ -1,4 +1,4 @@
-package com.example.ipvcconnect
+package com.example.ipvcconnect.Escolas.Cursos
 
 import android.os.Bundle
 import android.view.View
@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.ipvcconnect.R
 
 class Ersc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

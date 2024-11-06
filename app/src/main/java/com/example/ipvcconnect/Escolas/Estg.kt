@@ -1,4 +1,4 @@
-package com.example.ipvcconnect
+package com.example.ipvcconnect.Escolas
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.ipvcconnect.Escolas.Cursos.Ersc
+import com.example.ipvcconnect.R
 
 class Estg : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
