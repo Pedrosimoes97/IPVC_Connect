@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/ersc"
-    tools:context=".cursos.Ersc">
+    tools:context=".cursos.Acdigi">
+
 
     <LinearLayout
         android:id="@+id/l1"
@@ -43,90 +46,56 @@
         android:paddingEnd="24dp">
 
         <TextView
-            android:id="@+id/wesecure"
+            android:id="@+id/ICELab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="secureClick"
+            android:onClick="ICELabClick"
             android:padding="10dp"
-            android:text="WeSecure"
+            android:text="ICELab"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/eurotux"
+            android:id="@+id/PTM_Ibérica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="eurotuxClick"
+            android:onClick="PTMClick"
             android:padding="10dp"
-            android:text="EuroTux"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-
-        <TextView
-            android:id="@+id/microDi"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="microClick"
-            android:padding="10dp"
-            android:text="Micro Di"
+            android:text="PTM Ibérica"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
 
         <TextView
-            android:id="@+id/Chip7"
+            android:id="@+id/Idealiza_Filmes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="chipClick"
+            android:onClick="filmesClick"
             android:padding="10dp"
-            android:text="Chip7"
+            android:text="Idealiza Filmes"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
+
         <TextView
-            android:id="@+id/Blip"
+            android:id="@+id/UpMusic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="BlipClick"
+            android:onClick="UpMusicClick"
             android:padding="10dp"
-            android:text="Blip"
+            android:text="UpMusic"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/Primavera"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="PrimaveraClick"
-            android:padding="10dp"
-            android:text="Primavera"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/Bosch"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="BoschClick"
-            android:padding="10dp"
-            android:text="Bosch"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
 
 
     </LinearLayout>
@@ -141,5 +110,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"/>
+
 
 </RelativeLayout>

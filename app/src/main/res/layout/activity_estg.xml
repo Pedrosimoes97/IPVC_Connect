@@ -4,151 +4,193 @@
     android:id="@+id/estg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Escolas.Estg">
+    tools:context=".escolas.Estg">
 
     <LinearLayout
         android:id="@+id/l1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_centerHorizontal="true">
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tw1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cursos ESTG"
-            android:textSize="20sp"
-            android:padding="10dp"/>
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="7dp"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@color/white"/>
     </LinearLayout>
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout_1"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/footer"
-        android:layout_below="@id/l1"
-        android:layout_margin="10dp">
-
-        <Button
-            android:id="@+id/designAlimentar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:text="Design de Ambientes"
-            android:onClick="DA"/>
-
-        <Button
-            android:id="@+id/designProduto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/designAlimentar"
-            android:text="Design de Produto"
-            android:onClick="DP"/>
-
-        <Button
-            android:id="@+id/engenhariaAlimentar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/designProduto"
-            android:text="Engenharia Alimentar"
-            android:onClick="EA"/>
-
-        <Button
-            android:id="@+id/engenhariaCivilAmbiente"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaAlimentar"
-            android:text="Engenharia Civil e do Ambiente"
-            android:onClick="ECA"/>
-
-        <Button
-            android:id="@+id/engenhariaComputacaoGraficaMultimedia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaCivilAmbiente"
-            android:text="Engenharia da Computação Gráfica e Multimédia"
-            android:onClick="ECGM"/>
-
-        <Button
-            android:id="@+id/engenhariaRedesSistemasComputadores"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaComputacaoGraficaMultimedia"
-            android:text="Engenharia de Redes e Sistemas de Computadores"
-            android:onClick="ERSC"/>
-
-        <Button
-            android:id="@+id/engenhariaInformatica"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaRedesSistemasComputadores"
-            android:text="Engenharia Informática"
-            android:onClick="EI"/>
-
-        <Button
-            android:id="@+id/engenhariaMecanica"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaInformatica"
-            android:text="Engenharia Mecânica"
-            android:onClick="EM"/>
-
-        <Button
-            android:id="@+id/engenhariaMecatronica"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaMecanica"
-            android:text="Engenharia Mecatrónica"
-            android:onClick="EME"/>
-
-        <Button
-            android:id="@+id/gestao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/engenhariaMecatronica"
-            android:text="Gestão"
-            android:onClick="G"/>
-
-        <Button
-            android:id="@+id/turismo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/gestao"
-            android:text="Turismo"
-            android:onClick="T"/>
-
-        <Button
-            android:id="@+id/gastronomiaArtesCulinarias"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_below="@id/turismo"
-            android:text="Gastronomia e Artes Culinárias"
-            android:textSize="20sp"
-            android:onClick="GAC"/>
-
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/footer"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selecione um curso para mais informações"
-        android:textSize="16sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"/>
+        android:layout_above="@id/relativeLayout_2"
+        android:layout_below="@id/l1"
+        android:layout_marginVertical="30dp">
+
+        <LinearLayout
+            android:id="@+id/relativeLayout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/designAlimentar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Design de Ambientes"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="DA"/>
+
+            <TextView
+                android:id="@+id/designProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Design de Produto"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="DP"/>
+
+            <TextView
+                android:id="@+id/engenhariaAlimentar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia Alimentar"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="EA"/>
+
+            <TextView
+                android:id="@+id/engenhariaCivilAmbiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia Civil e do Ambiente"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="ECA"/>
+
+            <TextView
+                android:id="@+id/engenhariaComputacaoGraficaMultimedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia da Computação Gráfica e Multimédia"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="ECGM"/>
+
+            <TextView
+                android:id="@+id/engenhariaRedesSistemasComputadores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia de Redes e Sistemas de Computadores"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="ERSC"/>
+
+            <TextView
+                android:id="@+id/engenhariaInformatica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia Informática"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="EI"/>
+
+            <TextView
+                android:id="@+id/engenhariaMecanica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia Mecânica"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="EM"/>
+
+            <TextView
+                android:id="@+id/engenhariaMecatronica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Engenharia Mecatrónica"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="EME"/>
+
+            <TextView
+                android:id="@+id/gestao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Gestão"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="G"/>
+
+            <TextView
+                android:id="@+id/turismo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Turismo"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="T"/>
+
+            <TextView
+                android:id="@+id/gastronomiaArtesCulinarias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:text="Gastronomia e Artes Culinárias"
+                android:textSize="25sp"
+                android:clickable="true"
+                android:onClick="GAC"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Selecione um curso para mais informações"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+    </RelativeLayout>
 </RelativeLayout>
