@@ -22,16 +22,13 @@
             android:layout_height="wrap_content"
             android:text="Escolas IPVC"
             android:textSize="20sp"
-            android:textColor="@color/white"
             android:padding="10dp"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginTop="4dp"
-            android:background="@color/white"/>
+            android:layout_marginTop="4dp"/>
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +48,6 @@
             android:onClick="estgClick"
             android:padding="10dp"
             android:text="Escola Superior de Tecnologia e Gestão"
-            android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
@@ -63,7 +59,6 @@
             android:onClick="eseClick"
             android:padding="10dp"
             android:text="Escola Superior de Educação"
-            android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
@@ -75,7 +70,6 @@
             android:onClick="esaClick"
             android:padding="10dp"
             android:text="Escola Superior Agrária"
-            android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
@@ -87,7 +81,6 @@
             android:onClick="essClick"
             android:padding="10dp"
             android:text="Escola Superior de Saúde"
-            android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
@@ -100,7 +93,6 @@
             android:onClick="esceClick"
             android:padding="10dp"
             android:text="Escola Superior de Ciências Empresariais"
-            android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
@@ -113,7 +105,6 @@
             android:onClick="esdlClick"
             android:padding="10dp"
             android:text="Escola Superior de Desporto e Lazer"
-            android:textColor="@color/white"
             android:textSize="25sp" />
     </LinearLayout>
 
@@ -123,7 +114,6 @@
         android:layout_height="wrap_content"
         android:text="Selecione uma escola para mais informações"
         android:textSize="16sp"
-        android:textColor="@color/white"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"/>

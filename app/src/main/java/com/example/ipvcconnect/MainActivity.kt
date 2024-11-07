@@ -45,8 +45,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "ESE", Toast.LENGTH_SHORT).show()
     }
     fun estgClick(view: View) {
-
-        val intent = Intent(this, Estg::class.java)
+        val intent = Intent(applicationContext, Estg::class.java)
         startActivity(intent)
     }
 

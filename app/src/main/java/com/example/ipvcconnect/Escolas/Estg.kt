@@ -24,31 +24,30 @@ class Estg : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-
     }
 
-    fun redesClick(view: View) {
-        val intent = Intent(this, Ersc::class.java)
-        startActivity(intent)
-    }
-    fun designAClick(view: View) {
-        Toast.makeText(this, "DESIGN ALIMENTAR", Toast.LENGTH_SHORT).show()
-    }
-    fun designPClick(view: View) {
-        Toast.makeText(this, "DESIGN PRODUTO", Toast.LENGTH_SHORT).show()
-    }
-    fun alimentarClick(view: View) {
-
-        Toast.makeText(this, "ALIMENTAR", Toast.LENGTH_SHORT).show()
-    }
-    fun itClick(view: View) {
-        Toast.makeText(this, "IT", Toast.LENGTH_SHORT).show()
-    }
-    fun turismoClick(view: View) {
-        Toast.makeText(this, "TURISMO", Toast.LENGTH_SHORT).show()
-    }
-
-    fun civilClick(view: View) {}
-    fun mecanicaClick(view: View) {}
+    fun DA(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun DP(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun EA(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun ECA(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun ECGM(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun ERSC(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun EI(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun EM(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun EME(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun G(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun T(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
+    fun GAC(view: View) {val intent = Intent(applicationContext, Ersc::class.java)
+        startActivity(intent)}
 }
