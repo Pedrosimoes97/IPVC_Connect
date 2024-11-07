@@ -22,4 +22,6 @@ class Esce : AppCompatActivity() {
 
     fun cfClick(view: View) {}
     fun gdlClick(view: View) {}
+    fun mceClick(view: View) {}
+    fun ogeClick(view: View) {}
 }

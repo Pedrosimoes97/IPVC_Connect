@@ -32,162 +32,170 @@
             android:background="@color/white"/>
     </LinearLayout>
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/l1"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="0dp"
-        android:orientation="vertical"
-        android:paddingStart="24dp"
-        android:paddingEnd="24dp">
+        android:layout_above="@id/footer"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="0dp">
 
-        <TextView
-            android:id="@+id/eda"
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:clickable="true"
-            android:onClick="designAClick"
-            android:padding="10dp"
-            android:text="Design de Ambientes"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:layout_below="@id/l1"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
 
-        <TextView
-            android:id="@+id/edp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="designPClick"
-            android:padding="10dp"
-            android:text="Design do Produto"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/eda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="designAClick"
+                android:padding="10dp"
+                android:text="Design de Ambientes"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/ea"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="alimentarClick"
-            android:padding="10dp"
-            android:text="Engenharia Alimentar"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/edp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="designPClick"
+                android:padding="10dp"
+                android:text="Design do Produto"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/ersc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="redesClick"
-            android:padding="10dp"
-            android:text="Engenharia de Redes e Sistemas de Computadores"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/ea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="alimentarClick"
+                android:padding="10dp"
+                android:text="Engenharia Alimentar"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/ei"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="itClick"
-            android:padding="10dp"
-            android:text="Engenharia Informática"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/ersc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="redesClick"
+                android:padding="10dp"
+                android:text="Engenharia de Redes e Sistemas de Computadores"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/turismo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="turismoClick"
-            android:padding="10dp"
-            android:text="Turismo"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/ei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="itClick"
+                android:padding="10dp"
+                android:text="Engenharia Informática"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/eca"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="civilClick"
-            android:padding="10dp"
-            android:text="Engenharia Civil e do Ambiente"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/turismo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="turismoClick"
+                android:padding="10dp"
+                android:text="Turismo"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/ecgm"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="ecgmClick"
-            android:padding="10dp"
-            android:text="Engenharia da Computação Gráfica e Multimédia"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/eca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="civilClick"
+                android:padding="10dp"
+                android:text="Engenharia Civil e do Ambiente"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/em"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="mecanicaClick"
-            android:padding="10dp"
-            android:text="Engenharia Mecânica"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/ecgm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="ecgmClick"
+                android:padding="10dp"
+                android:text="Engenharia da Computação Gráfica e Multimédia"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/emeca"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="mecatronicaClick"
-            android:padding="10dp"
-            android:text="Engenharia Mecatrónica"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/em"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="mecanicaClick"
+                android:padding="10dp"
+                android:text="Engenharia Mecânica"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/gestao"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="gestaoClick"
-            android:padding="10dp"
-            android:text="Gestão"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/emeca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="mecatronicaClick"
+                android:padding="10dp"
+                android:text="Engenharia Mecatrónica"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/gac"
-            android:layout_marginTop="8dp"
-            android:clickable="true"
-            android:onClick="gacClick"
-            android:padding="10dp"
-            android:text="Gastronomia e Artes Culinárias"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/gestao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="gestaoClick"
+                android:padding="10dp"
+                android:text="Gestão"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/gac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="gacClick"
+                android:padding="10dp"
+                android:text="Gastronomia e Artes Culinárias"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
     <TextView
@@ -199,5 +207,6 @@
         android:textColor="@color/white"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
         android:layout_marginBottom="20dp"/>
 </RelativeLayout>
