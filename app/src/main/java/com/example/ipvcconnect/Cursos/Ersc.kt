@@ -1,4 +1,4 @@
-package com.example.ipvcconnect.Escolas.Cursos
+package com.example.ipvcconnect.Cursos
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ipvcconnect.Escolas.Cursos.Estagios.WeSecure
+import com.example.ipvcconnect.Estagios.WeSecure
 import com.example.ipvcconnect.R
 
 class Ersc : AppCompatActivity() {
@@ -24,15 +24,17 @@ class Ersc : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-
     }
 
     fun secureClick(view: View) {
         val intent = Intent(this, WeSecure::class.java)
         startActivity(intent)
+
+        Toast.makeText(this, "OK", Toast.LENGTH_SHORT).show()
     }
-    fun eurotuxClick(view: View) {}
+    fun eurotuxClick(view: View) {
+        Toast.makeText(this, "OK", Toast.LENGTH_SHORT).show()
+    }
     fun microClick(view: View) {}
     fun chipClick(view: View) {}
     fun BlipClick(view: View) {}

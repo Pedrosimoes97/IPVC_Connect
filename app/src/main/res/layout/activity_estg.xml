@@ -175,6 +175,18 @@
             android:textColor="@color/white"
             android:textSize="25sp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gac"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="gacClick"
+            android:padding="10dp"
+            android:text="Gastronomia e Artes Culinárias"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
     </LinearLayout>
 
 

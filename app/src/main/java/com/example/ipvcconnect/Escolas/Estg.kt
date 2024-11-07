@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ipvcconnect.Escolas.Cursos.Ersc
+import com.example.ipvcconnect.Cursos.Ersc
 import com.example.ipvcconnect.R
 
 class Estg : AppCompatActivity() {
@@ -51,4 +51,5 @@ class Estg : AppCompatActivity() {
 
     fun civilClick(view: View) {}
     fun mecanicaClick(view: View) {}
+    fun gacClick(view: View) {}
 }

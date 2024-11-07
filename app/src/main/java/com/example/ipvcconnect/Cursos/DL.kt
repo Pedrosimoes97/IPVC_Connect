@@ -1,26 +1,21 @@
-package com.example.ipvcconnect.Escolas.Cursos.Estagios
+package com.example.ipvcconnect.Cursos
 
 import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ipvcconnect.R
 
-class WeSecure : AppCompatActivity() {
+class DL : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-        setContentView(R.layout.activity_wesecure)
-
-        val intent = intent
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.wesecure)) { v, insets ->
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_dl)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-
     }
 }

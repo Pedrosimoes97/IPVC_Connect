@@ -1,4 +1,4 @@
-package com.example.ipvcconnect.Escolas.Cursos
+package com.example.ipvcconnect.Cursos
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

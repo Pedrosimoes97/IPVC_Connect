@@ -1,6 +1,7 @@
 package com.example.ipvcconnect.Escolas
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,4 +19,8 @@ class Esa : AppCompatActivity() {
             insets
         }
     }
+
+    fun agroClick(view: View) {}
+    fun bioClick(view: View) {}
+    fun evClick(view: View) {}
 }
