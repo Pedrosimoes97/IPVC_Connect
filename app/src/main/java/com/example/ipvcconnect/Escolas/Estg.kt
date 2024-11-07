@@ -48,4 +48,7 @@ class Estg : AppCompatActivity() {
     fun turismoClick(view: View) {
         Toast.makeText(this, "TURISMO", Toast.LENGTH_SHORT).show()
     }
+
+    fun civilClick(view: View) {}
+    fun mecanicaClick(view: View) {}
 }

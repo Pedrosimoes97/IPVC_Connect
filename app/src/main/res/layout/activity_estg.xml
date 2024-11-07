@@ -104,7 +104,7 @@
             android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/et"
+            android:id="@+id/turismo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -114,7 +114,69 @@
             android:text="Turismo"
             android:textColor="@color/white"
             android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/eca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="civilClick"
+            android:padding="10dp"
+            android:text="Engenharia Civil e do Ambiente"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ecgm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="ecgmClick"
+            android:padding="10dp"
+            android:text="Engenharia da Computação Gráfica e Multimédia"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/em"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="mecanicaClick"
+            android:padding="10dp"
+            android:text="Engenharia Mecânica"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/emeca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="mecatronicaClick"
+            android:padding="10dp"
+            android:text="Engenharia Mecatrónica"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/gestao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="gestaoClick"
+            android:padding="10dp"
+            android:text="Gestão"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
     </LinearLayout>
+
 
     <TextView
         android:id="@+id/footer"
