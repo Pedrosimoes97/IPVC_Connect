@@ -13,6 +13,84 @@
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Escolas.Cursos.DL"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Oge"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Mce"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Gdl"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Cf"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Enfermagem"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Turismo"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Gestao"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Gac"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Emecat"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Em"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Ei"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Ecgm"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Eca"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Ea"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Dp"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Da"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Eag"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Ev"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Bio"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Agro"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Esg"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Eb"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Apta"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.apta"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Cursos.Acdigi"
+            android:exported="false" />
+        <activity
             android:name=".Escolas.Esdl"
             android:exported="false" />
         <activity
@@ -28,11 +106,11 @@
             android:name=".Escolas.Ese"
             android:exported="false" />
         <activity
-            android:name=".Estagios.WeSecure"
+            android:name=".Escolas.Cursos.Estagios.WeSecure"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect" />
         <activity
-            android:name=".Cursos.Ersc"
+            android:name=".Escolas.Cursos.Ersc"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect" />
         <activity

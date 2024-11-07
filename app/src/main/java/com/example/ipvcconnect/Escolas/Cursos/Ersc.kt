@@ -1,4 +1,4 @@
-package com.example.ipvcconnect.Cursos
+package com.example.ipvcconnect.Escolas.Cursos
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ipvcconnect.Estagios.WeSecure
+import com.example.ipvcconnect.Escolas.Cursos.Estagios.WeSecure
 import com.example.ipvcconnect.R
 
 class Ersc : AppCompatActivity() {

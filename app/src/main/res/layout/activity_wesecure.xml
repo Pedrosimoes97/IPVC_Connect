@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/wesecure"
-    tools:context=".Estagios.WeSecure">
+    tools:context=".Escolas.Cursos.Estagios.WeSecure">
 
     <LinearLayout
         android:id="@+id/l1"
