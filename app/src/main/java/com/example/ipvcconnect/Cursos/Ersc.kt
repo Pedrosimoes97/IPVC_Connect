@@ -37,6 +37,7 @@ class Ersc : AppCompatActivity() {
     fun chipClick(view: View) {}
     fun BlipClick(view: View) {}
     fun PrimaveraClick(view: View) {}
+    fun BoschClick(view: View) {}
 
 
 }
