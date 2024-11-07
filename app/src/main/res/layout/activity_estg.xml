@@ -32,116 +32,105 @@
         android:layout_below="@id/l1"
         android:layout_margin="10dp">
 
-        <TextView
+        <Button
             android:id="@+id/designAlimentar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:text="Design de Ambientes"
-            android:textSize="20sp"
             android:onClick="DA"/>
 
-        <TextView
+        <Button
             android:id="@+id/designProduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/designAlimentar"
             android:text="Design de Produto"
-            android:textSize="20sp"
             android:onClick="DP"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaAlimentar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/designProduto"
             android:text="Engenharia Alimentar"
-            android:textSize="20sp"
             android:onClick="EA"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaCivilAmbiente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaAlimentar"
             android:text="Engenharia Civil e do Ambiente"
-            android:textSize="20sp"
             android:onClick="ECA"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaComputacaoGraficaMultimedia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaCivilAmbiente"
             android:text="Engenharia da Computação Gráfica e Multimédia"
-            android:textSize="20sp"
             android:onClick="ECGM"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaRedesSistemasComputadores"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaComputacaoGraficaMultimedia"
             android:text="Engenharia de Redes e Sistemas de Computadores"
-            android:textSize="20sp"
             android:onClick="ERSC"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaInformatica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaRedesSistemasComputadores"
             android:text="Engenharia Informática"
-            android:textSize="20sp"
             android:onClick="EI"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaMecanica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaInformatica"
             android:text="Engenharia Mecânica"
-            android:textSize="20sp"
             android:onClick="EM"/>
 
-        <TextView
+        <Button
             android:id="@+id/engenhariaMecatronica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaMecanica"
             android:text="Engenharia Mecatrónica"
-            android:textSize="20sp"
             android:onClick="EME"/>
 
-        <TextView
+        <Button
             android:id="@+id/gestao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/engenhariaMecatronica"
             android:text="Gestão"
-            android:textSize="20sp"
             android:onClick="G"/>
 
-        <TextView
+        <Button
             android:id="@+id/turismo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:layout_below="@id/gestao"
             android:text="Turismo"
-            android:textSize="20sp"
             android:onClick="T"/>
 
-        <TextView
+        <Button
             android:id="@+id/gastronomiaArtesCulinarias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
