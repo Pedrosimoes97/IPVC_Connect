@@ -12,18 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
-
-        <activity android:name=".Estagios.WeSecure"
+        <activity
+            android:name=".Escolas.Esdl"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Esce"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Ess"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Esa"
+            android:exported="false" />
+        <activity
+            android:name=".Escolas.Ese"
+            android:exported="false" />
+        <activity
+            android:name=".Estagios.WeSecure"
             android:exported="false"
-            android:theme="@style/Theme.IPVCConnect"/>
-
-        <activity android:name=".Cursos.Ersc"
+            android:theme="@style/Theme.IPVCConnect" />
+        <activity
+            android:name=".Cursos.Ersc"
             android:exported="false"
-            android:theme="@style/Theme.IPVCConnect"/>
+            android:theme="@style/Theme.IPVCConnect" />
         <activity
             android:name=".Escolas.Estg"
             android:exported="false"
-            android:theme="@style/Theme.IPVCConnect"/>
+            android:theme="@style/Theme.IPVCConnect" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

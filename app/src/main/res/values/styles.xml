@@ -2,7 +2,7 @@
 <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
 
 
-    <!-- Personalizações do tema -->
+
     <item name="colorPrimary">@color/dark_gray</item>
     <item name="colorPrimaryDark">@color/dark_gray</item>
     <item name="colorAccent">@color/white</item>
