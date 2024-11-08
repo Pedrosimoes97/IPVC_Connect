@@ -8,27 +8,25 @@
 
     <LinearLayout
         android:id="@+id/l1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/tw1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
             android:text="Lista de Estágios"
+            android:textSize="25sp"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textAlignment="center"
+            android:padding="7dp"/>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="4dp"
-            android:background="@color/white" />
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@color/white"/>
     </LinearLayout>
 
     <LinearLayout
@@ -131,15 +129,20 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/footer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Selecione um estágio para mais informações"
-        android:textSize="16sp"
-        android:textColor="@color/white"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"/>
+    <RelativeLayout
+        android:id="@+id/relativeLayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
 
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Selecione um curso para mais informações"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+    </RelativeLayout>
 </RelativeLayout>
