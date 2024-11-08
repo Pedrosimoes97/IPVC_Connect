@@ -103,7 +103,7 @@
             android:name=".escolas.Ese"
             android:exported="false" />
         <activity
-            android:name=".Estagios.WeSecure"
+            android:name=".estagios.WeSecure"
             android:exported="false" />
         <activity
             android:name=".cursos.Ersc"

@@ -1,4 +1,4 @@
-package com.example.ipvcconnect.Estagios
+package com.example.ipvcconnect.estagios
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
