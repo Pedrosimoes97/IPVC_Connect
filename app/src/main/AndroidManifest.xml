@@ -13,108 +13,108 @@
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".Cursos.DL"
+            android:name=".cursos.DL"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Oge"
+            android:name=".cursos.Oge"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Mce"
+            android:name=".cursos.Mce"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Gdl"
+            android:name=".cursos.Gdl"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Cf"
+            android:name=".cursos.Cf"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Enfermagem"
+            android:name=".cursos.Enfermagem"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Turismo"
+            android:name=".cursos.Turismo"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Gestao"
+            android:name=".cursos.Gestao"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Gac"
+            android:name=".cursos.Gac"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Emecat"
+            android:name=".cursos.Emecat"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Em"
+            android:name=".cursos.Em"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Ei"
+            android:name=".cursos.Ei"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Ecgm"
+            android:name=".cursos.Ecgm"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Eca"
+            android:name=".cursos.Eca"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Ea"
+            android:name=".cursos.Ea"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Dp"
+            android:name=".cursos.Dp"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Da"
+            android:name=".cursos.Da"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Eag"
+            android:name=".cursos.Eag"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Ev"
+            android:name=".cursos.Ev"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Bio"
+            android:name=".cursos.Bio"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Agro"
+            android:name=".cursos.Agro"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Esg"
+            android:name=".cursos.Esg"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Eb"
+            android:name=".cursos.Eb"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Apta"
+            android:name=".cursos.Apta"
             android:exported="false" />
         <activity
-            android:name=".Cursos.apta"
+            android:name=".cursos.apta"
             android:exported="false" />
         <activity
-            android:name=".Cursos.Acdigi"
+            android:name=".cursos.Acdigi"
             android:exported="false" />
         <activity
-            android:name=".Escolas.Esdl"
+            android:name=".escolas.Esdl"
             android:exported="false" />
         <activity
-            android:name=".Escolas.Esce"
+            android:name=".escolas.Esce"
             android:exported="false" />
         <activity
-            android:name=".Escolas.Ess"
+            android:name=".escolas.Ess"
             android:exported="false" />
         <activity
-            android:name=".Escolas.Esa"
+            android:name=".escolas.Esa"
             android:exported="false" />
         <activity
-            android:name=".Escolas.Ese"
+            android:name=".escolas.Ese"
             android:exported="false" />
         <activity
-            android:name=".Estagios.WeSecure"
+            android:name=".estagios.WeSecure"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect" />
         <activity
-            android:name=".Cursos.Ersc"
+            android:name=".cursos.Ersc"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect" />
         <activity
-            android:name=".Escolas.Estg"
+            android:name=".escolas.Estg"
             android:exported="false"
             android:theme="@style/Theme.IPVCConnect" />
         <activity

@@ -3,17 +3,16 @@ package com.example.ipvcconnect
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.appcompat.app.AppCompatDelegate
-import com.example.ipvcconnect.Escolas.Esa
-import com.example.ipvcconnect.Escolas.Esce
-import com.example.ipvcconnect.Escolas.Esdl
-import com.example.ipvcconnect.Escolas.Ese
-import com.example.ipvcconnect.Escolas.Ess
-import com.example.ipvcconnect.Escolas.Estg
+import com.example.ipvcconnect.escolas.Esa
+import com.example.ipvcconnect.escolas.Esce
+import com.example.ipvcconnect.escolas.Esdl
+import com.example.ipvcconnect.escolas.Ese
+import com.example.ipvcconnect.escolas.Ess
+import com.example.ipvcconnect.escolas.Estg
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
