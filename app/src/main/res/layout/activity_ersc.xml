@@ -79,6 +79,17 @@
             android:textColor="@color/white"
             android:textSize="25sp" />
 
+        <TextView
+            android:id="@+id/Accenture_Technology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="AccentureClick"
+            android:padding="10dp"
+            android:text="Accenture Technology"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/Chip7"

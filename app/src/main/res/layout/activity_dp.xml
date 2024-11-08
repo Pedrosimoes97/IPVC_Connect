@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="Oli click"
+            android:onClick="Oliclick"
             android:padding="10dp"
             android:text="Oli"
             android:textAlignment="center"
