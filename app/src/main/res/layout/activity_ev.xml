@@ -46,37 +46,37 @@
         android:paddingEnd="24dp">
 
         <TextView
-            android:id="@+id/Farfetch"
+            android:id="@+id/ClínicaVeterináriaBraga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="FarfetchClick"
+            android:onClick="BragaClick"
             android:padding="10dp"
-            android:text="Farfetch"
+            android:text="Clínica Veterinária de Braga"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/Accenture_Technology"
+            android:id="@+id/Petcare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="AccentureClick"
+            android:onClick="PetcareClick"
             android:padding="10dp"
-            android:text="Accenture Technology"
+            android:text="Petcare"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/Bosch"
+            android:id="@+id/Vet4Pet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="BoschClick"
+            android:onClick="Vet4PetClick"
             android:padding="10dp"
-            android:text="Bosch"
+            android:text="Vet4Pet"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />

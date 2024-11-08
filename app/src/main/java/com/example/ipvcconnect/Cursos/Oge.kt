@@ -1,6 +1,7 @@
 package com.example.ipvcconnect.Cursos
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,4 +19,8 @@ class Oge : AppCompatActivity() {
             insets
         }
     }
+
+    fun EfacecClick(view: View) {}
+    fun UnilabsClick(view: View) {}
+    fun AccentureClick(view: View) {}
 }

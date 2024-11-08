@@ -1,6 +1,7 @@
 package com.example.ipvcconnect.Cursos
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,4 +19,8 @@ class Turismo : AppCompatActivity() {
             insets
         }
     }
+
+    fun PestanaClick(view: View) {}
+    fun DouroClick(view: View) {}
+    fun turismoClick(view: View) {}
 }
