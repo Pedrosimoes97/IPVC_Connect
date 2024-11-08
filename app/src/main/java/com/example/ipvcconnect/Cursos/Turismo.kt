@@ -1,5 +1,6 @@
 package com.example.ipvcconnect.Cursos
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -12,6 +13,9 @@ class Turismo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        val intent = intent
+
+
         setContentView(R.layout.activity_turismo)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -20,7 +24,9 @@ class Turismo : AppCompatActivity() {
         }
     }
 
-    fun PestanaClick(view: View) {}
+    fun PestanaClick(view: View) {
+
+    }
     fun DouroClick(view: View) {}
     fun turismoClick(view: View) {}
 }

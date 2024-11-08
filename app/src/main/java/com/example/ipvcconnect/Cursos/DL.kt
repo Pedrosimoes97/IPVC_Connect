@@ -1,5 +1,6 @@
 package com.example.ipvcconnect.Cursos
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
@@ -13,6 +14,9 @@ class DL : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_dl)
+
+        val intent = intent
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -20,6 +24,11 @@ class DL : AppCompatActivity() {
         }
     }
 
-    fun FitnessUpClick(view: View) {}
-    fun Nautiberclick(view: View) {}
+    fun FitnessUpClick(view: View) {
+
+
+    }
+    fun Nautiberclick(view: View) {
+
+    }
 }

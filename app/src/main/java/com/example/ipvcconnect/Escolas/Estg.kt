@@ -8,7 +8,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.ipvcconnect.Cursos.Agro
+import com.example.ipvcconnect.Cursos.Da
+import com.example.ipvcconnect.Cursos.Dp
+import com.example.ipvcconnect.Cursos.Ea
+import com.example.ipvcconnect.Cursos.Eca
+import com.example.ipvcconnect.Cursos.Ecgm
+import com.example.ipvcconnect.Cursos.Ei
+import com.example.ipvcconnect.Cursos.Em
 import com.example.ipvcconnect.Cursos.Ersc
+import com.example.ipvcconnect.Cursos.Gac
+import com.example.ipvcconnect.Cursos.Turismo
 import com.example.ipvcconnect.R
 
 class Estg : AppCompatActivity() {
@@ -24,8 +34,6 @@ class Estg : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-
     }
 
     fun redesClick(view: View) {
@@ -33,23 +41,48 @@ class Estg : AppCompatActivity() {
         startActivity(intent)
     }
     fun designAClick(view: View) {
-        Toast.makeText(this, "DESIGN ALIMENTAR", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, Da::class.java)
+        startActivity(intent)
     }
     fun designPClick(view: View) {
-        Toast.makeText(this, "DESIGN PRODUTO", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, Dp::class.java)
+        startActivity(intent)
     }
     fun alimentarClick(view: View) {
 
-        Toast.makeText(this, "ALIMENTAR", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, Ea::class.java)
+        startActivity(intent)
+    }
+    fun agroClick(view: View) {
+        val intent = Intent(this, Agro::class.java)
+        startActivity(intent)
     }
     fun itClick(view: View) {
-        Toast.makeText(this, "IT", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, Ei::class.java)
+        startActivity(intent)
     }
     fun turismoClick(view: View) {
-        Toast.makeText(this, "TURISMO", Toast.LENGTH_SHORT).show()
+
+        val intent = Intent(this, Turismo::class.java)
+        startActivity(intent)
     }
 
-    fun civilClick(view: View) {}
-    fun mecanicaClick(view: View) {}
-    fun gacClick(view: View) {}
+    fun civilClick(view: View) {
+        val intent = Intent(this, Eca::class.java)
+        startActivity(intent)
+    }
+    fun ecgmClick(view: View) {
+        val intent = Intent(this, Ecgm::class.java)
+        startActivity(intent)
+    }
+    fun mecanicaClick(view: View) {
+        val intent = Intent(this, Em::class.java)
+        startActivity(intent)
+
+    }
+    fun gacClick(view: View) {
+        val intent = Intent(this, Gac::class.java)
+        startActivity(intent)
+
+    }
 }
