@@ -14,9 +14,8 @@ class Esdl : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val intent = intent
-
         setContentView(R.layout.activity_esdl)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.esdl)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

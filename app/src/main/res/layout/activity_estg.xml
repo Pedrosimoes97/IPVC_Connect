@@ -52,7 +52,7 @@
                 android:text="Design de Ambientes"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="DA"/>
+                android:onClick="designAClick"/>
 
             <TextView
                 android:id="@+id/designProduto"
@@ -63,7 +63,7 @@
                 android:text="Design de Produto"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="DP"/>
+                android:onClick="designPClick"/>
 
             <TextView
                 android:id="@+id/engenhariaAlimentar"
@@ -74,7 +74,7 @@
                 android:text="Engenharia Alimentar"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="EA"/>
+                android:onClick="alimentarClick"/>
 
             <TextView
                 android:id="@+id/engenhariaCivilAmbiente"
@@ -85,7 +85,7 @@
                 android:text="Engenharia Civil e do Ambiente"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="ECA"/>
+                android:onClick="civilClick"/>
 
             <TextView
                 android:id="@+id/engenhariaComputacaoGraficaMultimedia"
@@ -96,7 +96,7 @@
                 android:text="Engenharia da Computação Gráfica e Multimédia"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="ECGM"/>
+                android:onClick="ecgmClick"/>
 
             <TextView
                 android:id="@+id/engenhariaRedesSistemasComputadores"
@@ -107,7 +107,7 @@
                 android:text="Engenharia de Redes e Sistemas de Computadores"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="ERSC"/>
+                android:onClick="redesClick"/>
 
             <TextView
                 android:id="@+id/engenhariaInformatica"
@@ -118,7 +118,7 @@
                 android:text="Engenharia Informática"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="EI"/>
+                android:onClick="itClick"/>
 
             <TextView
                 android:id="@+id/engenhariaMecanica"
@@ -129,7 +129,7 @@
                 android:text="Engenharia Mecânica"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="EM"/>
+                android:onClick="mecanicaClick"/>
 
             <TextView
                 android:id="@+id/engenhariaMecatronica"
@@ -173,7 +173,7 @@
                 android:text="Gastronomia e Artes Culinárias"
                 android:textSize="25sp"
                 android:clickable="true"
-                android:onClick="GAC"/>
+                android:onClick="gacClick"/>
         </LinearLayout>
     </ScrollView>
 

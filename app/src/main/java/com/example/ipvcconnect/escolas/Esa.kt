@@ -17,7 +17,6 @@ class Esa : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_esa)
-        val intent = intent
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.esa)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

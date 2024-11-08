@@ -3,6 +3,7 @@ package com.example.ipvcconnect.escolas
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -22,10 +23,9 @@ import com.example.ipvcconnect.cursos.Turismo
 class Estg : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val intent = intent
-
+        enableEdgeToEdge()
         setContentView(R.layout.activity_estg)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.estg)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -46,7 +46,6 @@ class Estg : AppCompatActivity() {
         startActivity(intent)
     }
     fun alimentarClick(view: View) {
-
         val intent = Intent(this, Ea::class.java)
         startActivity(intent)
     }
@@ -59,11 +58,9 @@ class Estg : AppCompatActivity() {
         startActivity(intent)
     }
     fun turismoClick(view: View) {
-
         val intent = Intent(this, Turismo::class.java)
         startActivity(intent)
     }
-
     fun civilClick(view: View) {
         val intent = Intent(this, Eca::class.java)
         startActivity(intent)
@@ -75,11 +72,9 @@ class Estg : AppCompatActivity() {
     fun mecanicaClick(view: View) {
         val intent = Intent(this, Em::class.java)
         startActivity(intent)
-
     }
     fun gacClick(view: View) {
         val intent = Intent(this, Gac::class.java)
         startActivity(intent)
-
     }
 }
