@@ -5,6 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".escolas.Cursos.Ev">
+    tools:context=".cursos.Ev">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
