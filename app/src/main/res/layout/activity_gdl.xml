@@ -6,7 +6,7 @@
     android:id="@+id/gdl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Gdl">
+    tools:context=".cursos.esce.Gdl">
 
 
     <LinearLayout

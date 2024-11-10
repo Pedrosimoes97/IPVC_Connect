@@ -1,4 +1,4 @@
-package com.example.ipvcconnect.cursos
+package com.example.ipvcconnect.cursos.esce
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,12 +7,12 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ipvcconnect.R
 
-class Turismo : AppCompatActivity() {
+class Oge : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_turismo)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.turismo)) { v, insets ->
+        setContentView(R.layout.activity_oge)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.oge)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets

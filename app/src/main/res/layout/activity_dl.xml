@@ -6,7 +6,7 @@
     android:id="@+id/dl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.DL">
+    tools:context=".cursos.esdl.DL">
 
 
     <LinearLayout

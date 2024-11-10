@@ -13,79 +13,79 @@
         android:theme="@style/Theme.IPVCConnect"
         tools:targetApi="31">
         <activity
-            android:name=".cursos.DL"
+            android:name=".cursos.esdl.DL"
             android:exported="false" />
         <activity
-            android:name=".cursos.Oge"
+            android:name=".cursos.esce.Oge"
             android:exported="false" />
         <activity
-            android:name=".cursos.Mce"
+            android:name=".cursos.esce.Mce"
             android:exported="false" />
         <activity
-            android:name=".cursos.Gdl"
+            android:name=".cursos.esce.Gdl"
             android:exported="false" />
         <activity
-            android:name=".cursos.Cf"
+            android:name=".cursos.esce.Cf"
             android:exported="false" />
         <activity
-            android:name=".cursos.Enfermagem"
+            android:name=".cursos.ess.Enfermagem"
             android:exported="false" />
         <activity
-            android:name=".cursos.Turismo"
+            android:name=".cursos.estg.Turismo"
             android:exported="false" />
         <activity
-            android:name=".cursos.Gestao"
+            android:name=".cursos.estg.Gestao"
             android:exported="false" />
         <activity
-            android:name=".cursos.Gac"
+            android:name=".cursos.estg.Gac"
             android:exported="false" />
         <activity
-            android:name=".cursos.Emecat"
+            android:name=".cursos.estg.Emecat"
             android:exported="false" />
         <activity
-            android:name=".cursos.Em"
+            android:name=".cursos.estg.Em"
             android:exported="false" />
         <activity
-            android:name=".cursos.Ei"
+            android:name=".cursos.estg.Ei"
             android:exported="false" />
         <activity
-            android:name=".cursos.Ecgm"
+            android:name=".cursos.estg.Ecgm"
             android:exported="false" />
         <activity
-            android:name=".cursos.Eca"
+            android:name=".cursos.estg.Eca"
             android:exported="false" />
         <activity
-            android:name=".cursos.Ea"
+            android:name=".cursos.estg.Ea"
             android:exported="false" />
         <activity
-            android:name=".cursos.Dp"
+            android:name=".cursos.estg.Dp"
             android:exported="false" />
         <activity
-            android:name=".cursos.Da"
+            android:name=".cursos.estg.Da"
             android:exported="false" />
         <activity
-            android:name=".cursos.Eag"
+            android:name=".cursos.esa.Eag"
             android:exported="false" />
         <activity
-            android:name=".cursos.Ev"
+            android:name=".cursos.esa.Ev"
             android:exported="false" />
         <activity
-            android:name=".cursos.Bio"
+            android:name=".cursos.esa.Bio"
             android:exported="false" />
         <activity
-            android:name=".cursos.Agro"
+            android:name=".cursos.esa.Agro"
             android:exported="false" />
         <activity
-            android:name=".cursos.Esg"
+            android:name=".cursos.ese.Esg"
             android:exported="false" />
         <activity
-            android:name=".cursos.Eb"
+            android:name=".cursos.ese.Eb"
             android:exported="false" />
         <activity
-            android:name=".cursos.Apta"
+            android:name=".cursos.ese.Apta"
             android:exported="false" />
         <activity
-            android:name=".cursos.Acdigi"
+            android:name=".cursos.ese.Acdigi"
             android:exported="false" />
         <activity
             android:name=".escolas.Esdl"
@@ -106,7 +106,7 @@
             android:name=".estagios.WeSecure"
             android:exported="false" />
         <activity
-            android:name=".cursos.Ersc"
+            android:name=".cursos.estg.Ersc"
             android:exported="false" />
         <activity
             android:name=".escolas.Estg"

@@ -6,7 +6,7 @@
     android:id="@+id/mce"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Mce">
+    tools:context=".cursos.esce.Mce">
 
     <LinearLayout
         android:id="@+id/l1"

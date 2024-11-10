@@ -8,17 +8,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ipvcconnect.R
-import com.example.ipvcconnect.cursos.Agro
-import com.example.ipvcconnect.cursos.Da
-import com.example.ipvcconnect.cursos.Dp
-import com.example.ipvcconnect.cursos.Ea
-import com.example.ipvcconnect.cursos.Eca
-import com.example.ipvcconnect.cursos.Ecgm
-import com.example.ipvcconnect.cursos.Ei
-import com.example.ipvcconnect.cursos.Em
-import com.example.ipvcconnect.cursos.Ersc
-import com.example.ipvcconnect.cursos.Gac
-import com.example.ipvcconnect.cursos.Turismo
+import com.example.ipvcconnect.cursos.esa.Agro
+import com.example.ipvcconnect.cursos.estg.Da
+import com.example.ipvcconnect.cursos.estg.Dp
+import com.example.ipvcconnect.cursos.estg.Ea
+import com.example.ipvcconnect.cursos.estg.Eca
+import com.example.ipvcconnect.cursos.estg.Ecgm
+import com.example.ipvcconnect.cursos.estg.Ei
+import com.example.ipvcconnect.cursos.estg.Em
+import com.example.ipvcconnect.cursos.estg.Ersc
+import com.example.ipvcconnect.cursos.estg.Gac
+import com.example.ipvcconnect.cursos.estg.Turismo
 
 class Estg : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -7,9 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ipvcconnect.cursos.Agro
-import com.example.ipvcconnect.cursos.Bio
-import com.example.ipvcconnect.cursos.Ev
+import com.example.ipvcconnect.cursos.esa.Agro
+import com.example.ipvcconnect.cursos.esa.Bio
+import com.example.ipvcconnect.cursos.esa.Ev
 import com.example.ipvcconnect.R
 
 class Esa : AppCompatActivity() {

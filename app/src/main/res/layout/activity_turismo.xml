@@ -6,7 +6,7 @@
     android:id="@+id/turismo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Turismo">
+    tools:context=".cursos.estg.Turismo">
 
     <LinearLayout
         android:id="@+id/l1"

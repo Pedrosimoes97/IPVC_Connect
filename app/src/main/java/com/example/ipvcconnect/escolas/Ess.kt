@@ -8,8 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ipvcconnect.R
-import com.example.ipvcconnect.cursos.Enfermagem
-import com.example.ipvcconnect.cursos.Ersc
+import com.example.ipvcconnect.cursos.ess.Enfermagem
 
 class Ess : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

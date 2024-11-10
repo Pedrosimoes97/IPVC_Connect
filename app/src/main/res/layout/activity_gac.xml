@@ -6,7 +6,7 @@
     android:id="@+id/gac"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Gac">
+    tools:context=".cursos.estg.Gac">
 
     <LinearLayout
         android:id="@+id/l1"

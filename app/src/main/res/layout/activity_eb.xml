@@ -7,7 +7,7 @@
     android:id="@+id/eb"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Eb">
+    tools:context=".cursos.ese.Eb">
 
     <LinearLayout
         android:id="@+id/l1"

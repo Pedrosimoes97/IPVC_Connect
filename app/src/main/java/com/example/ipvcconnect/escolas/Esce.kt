@@ -7,10 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ipvcconnect.cursos.Cf
-import com.example.ipvcconnect.cursos.Gdl
-import com.example.ipvcconnect.cursos.Mce
-import com.example.ipvcconnect.cursos.Oge
+import com.example.ipvcconnect.cursos.esce.Cf
+import com.example.ipvcconnect.cursos.esce.Gdl
+import com.example.ipvcconnect.cursos.esce.Mce
+import com.example.ipvcconnect.cursos.esce.Oge
 import com.example.ipvcconnect.R
 
 class Esce : AppCompatActivity() {

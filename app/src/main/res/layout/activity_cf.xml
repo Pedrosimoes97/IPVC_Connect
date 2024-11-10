@@ -6,7 +6,7 @@
     android:id="@+id/cf"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Cf">
+    tools:context=".cursos.esce.Cf">
 
 
     <LinearLayout

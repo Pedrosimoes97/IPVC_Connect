@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ipvcconnect.cursos.DL
+import com.example.ipvcconnect.cursos.esdl.DL
 import com.example.ipvcconnect.R
 
 class Esdl : AppCompatActivity() {

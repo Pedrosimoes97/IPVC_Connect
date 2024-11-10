@@ -1,4 +1,4 @@
-package com.example.ipvcconnect.cursos
+package com.example.ipvcconnect.cursos.estg
 
 import android.content.Intent
 import android.os.Bundle

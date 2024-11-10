@@ -6,7 +6,7 @@
     android:id="@+id/apta"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos.Apta">
+    tools:context=".cursos.ese.Apta">
 
     <LinearLayout
         android:id="@+id/l1"
